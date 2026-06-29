@@ -575,6 +575,13 @@
         <p class="sec-sub">Two views of your readiness, side by side. <b>How you're scoring</b> comes from the rubric grades you log after practicing (your AI coach grades you, you record the numbers). <b>How you feel</b> is your own confidence rating. The gap between them is the most useful signal here. Everything saves automatically in this browser &mdash; this is your private mirror, not a score the tool assigns you.</p>
 
         <div class="readiness-wrap">
+          <div class="rd-actions" style="margin-bottom:10px">
+            <button class="btn ghost" id="rdResetConf">Reset confidence ratings</button>
+            <button class="btn ghost" id="rdClearEvals">Clear practice evaluations</button>
+            <button class="btn danger" id="rdClearAll">Clear all my progress</button>
+          </div>
+          <p class="rd-foot" style="margin-bottom:28px">&ldquo;Reset confidence ratings&rdquo; clears only your self-ratings. &ldquo;Clear practice evaluations&rdquo; clears only the rubric scores you've logged. &ldquo;Clear all my progress&rdquo; wipes both plus every <b>Reviewed</b> checkmark in the Question Bank. All ask for confirmation first and only affect this browser.</p>
+
           <div class="rd-sublabel">How you're scoring &mdash; from your logged coach grades</div>
           <div id="rdSummary"></div>
           <div id="rdDims"></div>
@@ -594,13 +601,6 @@
 
           <div class="rd-nudge" id="rdNudge"></div>
           <div class="rd-list" id="rdList"></div>
-
-          <div class="rd-actions">
-            <button class="btn ghost" id="rdResetConf">Reset confidence ratings</button>
-            <button class="btn ghost" id="rdClearEvals">Clear practice evaluations</button>
-            <button class="btn danger" id="rdClearAll">Clear all my progress</button>
-          </div>
-          <p class="rd-foot">&ldquo;Reset confidence ratings&rdquo; clears only your self-ratings. &ldquo;Clear practice evaluations&rdquo; clears only the rubric scores you've logged. &ldquo;Clear all my progress&rdquo; wipes both plus every <b>Reviewed</b> checkmark in the Question Bank. All ask for confirmation first and only affect this browser.</p>
         </div>
       </section>
 
