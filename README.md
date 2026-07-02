@@ -7,7 +7,7 @@ Built for the University of Utah — David Eccles School of Business MBA program
 
 ## Live Link
 
-‘https://coryjburk.github.io/intv-playbook-prod-mgr/’
+[Live playbook](https://coryjburk.github.io/intv-playbook-prod-mgr/)
 
 ---
 
