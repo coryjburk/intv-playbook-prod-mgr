@@ -1,7 +1,15 @@
-# Product Management Interview Playbook
+# Full-Time MBA Program · David Eccles School of Business - Product Management Interview Playbook
 
 **A self-contained, browser-based interview-prep tool for Product Management candidates.**
 Built for the University of Utah — David Eccles School of Business MBA program (PM track).
+
+---
+
+## Live Link
+
+‘https://coryjburk.github.io/intv-playbook-prod-mgr/’
+
+---
 
 100 PM interview questions, 10 frameworks, an 8-panel battlecard, 10 recruiter red flags, a voice practice studio, an AI-coaching workflow, and a Readiness self-assessment that tracks your rubric grades and confidence over time — all in a single HTML file with no install, no account, and no server.
 
