@@ -500,7 +500,7 @@
     <main>
       <!-- HERO -->
       <div class="hero">
-        <span class="eyebrow">University of Utah &middot; David Eccles School of Business</span>
+        <span class="eyebrow">Full-Time MBA Program &middot; David Eccles School of Business</span>
         <h1>The Product Management<br><span class="accent">Interview Playbook</span></h1>
         <p class="lede">A complete prep system for landing the PM offer: 100 real interview questions with model answers, the 10 frameworks you'll be expected to wield, a final-round battlecard, the red flags that sink candidates, and a voice-powered practice studio.</p>
         <div class="stats">
@@ -633,7 +633,7 @@
       </section>
 
       <footer>
-        <p><b>PM Interview Playbook</b> &middot; University of Utah, David Eccles School of Business</p>
+        <p><b>PM Interview Playbook</b> &middot; Full-Time MBA Program &middot; David Eccles School of Business</p>
         <p style="margin-top:6px">100 questions &middot; 10 frameworks &middot; 8-section battlecard &middot; voice practice studio. Built for Eccles MBA candidates. Practice out loud &mdash; reasoning beats recall.</p>
       </footer>
     </main>
@@ -706,7 +706,7 @@
 <script>
 /* ============================================================
    PM_QUESTIONS — 100 Product Management interview questions
-   University of Utah — David Eccles School of Business
+   Full-Time MBA Program — David Eccles School of Business
    ============================================================ */
 const PM_QUESTIONS = [
 {
@@ -2485,7 +2485,7 @@ const PM_REDFLAGS = [
     var ans=finalText.trim();
     var rubricDesc=PM_RUBRIC.map(function(d,i){ return (i+1)+". "+d.label+" \u2014 "+d.hint; }).join("\n");
     var rubricLog=PM_RUBRIC.map(function(d){ return d.label+": X/5"; }).join("\n");
-    var p="You are an experienced product management interviewer and coach helping an MBA candidate from the University of Utah's Eccles School of Business prepare for PM interviews.\n\n"+
+    var p="You are an experienced product management interviewer and coach helping a Full-Time MBA candidate at the David Eccles School of Business prepare for PM interviews.\n\n"+
       "INTERVIEW QUESTION ("+curQ.category+", "+curQ.difficulty+" level):\n\""+curQ.question+"\"\n\n"+
       "WHAT A STRONG ANSWER COVERS:\n"+curQ.deepdive+"\n\n"+
       "HOW TO SCORE POINTS:\n"+curQ.coaching+"\n\n"+
@@ -2564,7 +2564,7 @@ const PM_REDFLAGS = [
     var cat=$("#cgCat").value, mode=$("#cgMode").value;
     var scope = cat==="All" ? "the full range of PM interview topics (product sense, strategy, execution & metrics, prioritization, design, analytics, stakeholder leadership, and behavioral)" : '"'+cat+'"';
     var sampleQs = PM_QUESTIONS.filter(function(q){ return cat==="All"||q.category===cat; }).slice(0,6).map(function(q){return "  - "+q.question;}).join("\n");
-    var intro="You are a senior product management interviewer and coach preparing an MBA candidate from the University of Utah Eccles School of Business. Focus on "+scope+".\n\n";
+    var intro="You are a senior product management interviewer and coach preparing a Full-Time MBA candidate at the David Eccles School of Business. Focus on "+scope+".\n\n";
     var body="";
     if(mode==="mock"){
       body="Run a realistic mock PM interview with me. Ask one question at a time, wait for my spoken/typed answer, then probe with natural follow-ups like a real interviewer would. After 4-5 questions, give me an overall debrief: a score out of 10, my strengths, my biggest gaps, and a concrete study plan. Start by asking me the first question now.";
